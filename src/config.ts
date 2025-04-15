@@ -1,9 +1,9 @@
 import { ServerOptions } from './types/ServerOptions';
 
 export default {
-  secretKey: 'THISISMYSECURETOKEN',
+  secretKey: 'MUMU2807JONTINHA1020ANDREZAO3040',
   host: 'http://localhost',
-  port: '21465',
+  port: '8080',
   deviceName: 'WppConnect',
   poweredBy: 'WPPConnect-Server',
   startAllSession: true,
@@ -76,6 +76,8 @@ export default {
      * linkPreviewApiServers: [ 'https://www.yourserver.com/wa-js-api-server' ]
      */
     linkPreviewApiServers: null,
+    devtools: true,
+    headless: true,
   },
   mapper: {
     enable: false,
