@@ -1,7 +1,7 @@
 import { ServerOptions } from './types/ServerOptions';
 
 export default {
-  secretKey: 'MUMU2807JONTINHA1020ANDREZAO3040',
+  secretKey: 'THISISMYSECURETOKEN',
   host: 'http://localhost',
   port: '8080',
   deviceName: 'WppConnect',
@@ -66,6 +66,7 @@ export default {
       '--ignore-certificate-errors',
       '--ignore-ssl-errors',
       '--ignore-certificate-errors-spki-list',
+      '--remote-debugging-port=9222',
     ],
     /**
      * Example of configuring the linkPreview generator
@@ -77,7 +78,7 @@ export default {
      */
     linkPreviewApiServers: null,
     devtools: true,
-    headless: true,
+    headless: false,
   },
   mapper: {
     enable: false,
